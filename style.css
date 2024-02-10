@@ -1,0 +1,63 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main header styling */
+#main-header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* Main footer styling */
+#main-footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Post styling */
+.post {
+    margin-bottom: 20px;
+}
+
+.post h3 {
+    font-size: 24px;
+}
+
+.post small {
+    font-style: italic;
+}
+
+.post p {
+    line-height: 1.5;
+}
+
+/* Categories styling */
+aside {
+    float: right;
+    width: 25%;
+}
+
+aside h3 {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
