@@ -1,6 +1,6 @@
 import pdfkit
 
-# Path to your HTML file
+# Path to HTML file
 html_file = 'input.html'
 
 # Path to output PDF file
